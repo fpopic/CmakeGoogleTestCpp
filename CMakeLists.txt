@@ -10,7 +10,10 @@ set(LIBRARY_OUTPUT_PATH "${PROJECT_SOURCE_DIR}/bin")
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/bin")
 
 # search for headers
-include_directories(include)
+include_directories(
+        include
+        lib
+)
 
 # compile subprojects too (libs)
 add_subdirectory(lib/mylib)

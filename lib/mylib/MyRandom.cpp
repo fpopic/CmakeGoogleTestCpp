@@ -3,3 +3,8 @@
 //
 
 #include "MyRandom.h"
+
+
+int MyRandom::getFakeRandom() {
+    return 5;
+}

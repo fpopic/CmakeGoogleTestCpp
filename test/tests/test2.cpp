@@ -3,7 +3,13 @@
 //
 
 #include "gtest/gtest.h"
+#include "mylib/MyRandom.h"
 
 TEST(test2, test_eq) {
-    EXPECT_EQ(1, 1);
+    MyRandom myRandom;
+
+    int actual = myRandom.getFakeRandom();
+    int expected = 5;
+
+    ASSERT_EQ(actual, expected);
 }

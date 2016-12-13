@@ -41,3 +41,4 @@ CTestTestfile.cmake
 .idea/
 cmake-build-debug/lib/
 cmake-build-debug/test/tests/
+bin/
